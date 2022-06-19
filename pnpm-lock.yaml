@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@sveltejs/vite-plugin-svelte': ^1.0.0-next.30
   '@tsconfig/svelte': ^2.0.1
+  animate.css: ^4.1.1
   svelte: ^3.44.0
   svelte-check: ^2.2.7
   svelte-navigator: ^3.1.6
@@ -13,6 +14,7 @@ specifiers:
   vite-tsconfig-paths: ^3.5.0
 
 dependencies:
+  animate.css: 4.1.1
   svelte-navigator: 3.1.6_lvfi2wesz6u4l5rfbnetbucfmm
 
 devDependencies:
@@ -117,6 +119,10 @@ packages:
     dependencies:
       '@types/node': 18.0.0
     dev: true
+
+  /animate.css/4.1.1:
+    resolution: {integrity: sha512-+mRmCTv6SbCmtYJCN4faJMNFVNN5EuCTTprDTAo7YzIGji2KADmakjVA3+8mVDkZ2Bf09vayB35lSQIex2+QaQ==}
+    dev: false
 
   /anymatch/3.1.2:
     resolution: {integrity: sha512-P43ePfOAIupkguHUycrc4qJ9kz8ZiuOUijaETwX7THt0Y/GNK7v0aa8rY816xWjZ7rJdA5XdMcpVFTKMq+RvWg==}

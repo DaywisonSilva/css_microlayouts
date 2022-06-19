@@ -1,27 +1,28 @@
 <script lang="ts">
-  import logo from './assets/svelte.png'
-  import Aside from '@components/molecules/Aside'
-  import Routes from '@router/routes'
+    import Routes from "@router/routes.svelte";
 </script>
 
-<main class="main">
-  <img src={logo} alt="Svelte Logo" />
-  <Routes />
-</main>
+<Routes />
 
 <style>
-  :global(html, body, ul, ol, h1, h2, h3, h4, h5, h6) {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-  }
+    :global(html, body, ul, ol, h1, h2, h3, h4, h5, h6) {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
 
-  :global(ul, ol) {
-    list-style: none;
-  }
+    :global(html, body) {
+        background-color: #333;
+        height: 100vh;
+        display: grid;
+        place-content: center;
+    }
 
-  img {
-    height: 16rem;
-    width: 16rem;
-  }
+    :global(ul, ol) {
+        list-style: none;
+    }
+
+    :global(a) {
+        text-decoration: none;
+    }
 </style>
